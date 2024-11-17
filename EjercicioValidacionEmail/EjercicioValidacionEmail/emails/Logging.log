@@ -1,0 +1,8 @@
+import logging
+
+# Configuración básica
+logging.basicConfig(
+    filename="email_validator.log",  # Nombre del archivo donde se guardan los logs
+    level=logging.DEBUG,             # Nivel de los logs que se registrarán
+    format="%(asctime)s - %(levelname)s - %(message)s"  # Formato del mensaje
+)
